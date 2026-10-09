@@ -1,0 +1,51 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'>
+  <!-- Star pointer tip at (3, 3) -->
+  <polygon points='3,0 4.2,2.2 6.5,3 4.2,3.8 3,6 1.8,3.8 -0.5,3 1.8,2.2' fill='#FBBF24' stroke='#D97706' stroke-width='0.5'/>
+  <circle cx='3' cy='3' r='1' fill='#FFFFFF'/>
+
+  <!-- Atmosphere outer glow -->
+  <circle cx='17' cy='17' r='11' fill='#38BDF8' opacity='0.35'/>
+
+  <!-- Earth Ocean base -->
+  <defs>
+    <radialGradient id='oceanGrad' cx='40%' cy='35%' r='65%'>
+      <stop offset='0%' stop-color='#60A5FA'/>
+      <stop offset='60%' stop-color='#2563EB'/>
+      <stop offset='100%' stop-color='#1D4ED8'/>
+    </radialGradient>
+    <clipPath id='earthClip'>
+      <circle cx='17' cy='17' r='8'/>
+    </clipPath>
+  </defs>
+
+  <circle cx='17' cy='17' r='8' fill='url(#oceanGrad)'/>
+
+  <!-- Continents clipped to sphere -->
+  <g clip-path='url(#earthClip)'>
+    <!-- Americas (Left) -->
+    <path d='M10 11 C11 11, 13 13, 12 15 C11 17, 12 19, 13 21 C12 22, 10 22, 10 20 C9 18, 9 14, 10 11 Z' fill='#22C55E'/>
+    <!-- Eurasia & Africa (Center-Right) -->
+    <path d='M15 10 C18 9, 21 11, 23 12 C24 14, 23 16, 21 16 C19 16, 18 14, 16 13 Z' fill='#16A34A'/>
+    <path d='M16 16 C18 15, 21 17, 22 20 C20 22, 18 22, 16 19 Z' fill='#22C55E'/>
+    <!-- Small island -->
+    <circle cx='21' cy='22' r='1' fill='#4ADE80'/>
+    
+    <!-- White cloud swirls -->
+    <path d='M11 13 Q15 11 19 13' fill='none' stroke='#FFFFFF' stroke-width='1.2' stroke-linecap='round' opacity='0.75'/>
+    <path d='M14 20 Q18 19 22 21' fill='none' stroke='#FFFFFF' stroke-width='1.1' stroke-linecap='round' opacity='0.7'/>
+    <path d='M17 16 Q20 17 23 16' fill='none' stroke='#FFFFFF' stroke-width='0.9' stroke-linecap='round' opacity='0.6'/>
+
+    <!-- Spherical 3D shading / shadow on right-bottom -->
+    <path d='M11 20 A8 8 0 0 0 25 17 A8 8 0 0 1 11 20' fill='#0F172A' opacity='0.28'/>
+  </g>
+
+  <!-- Atmosphere ring highlight -->
+  <circle cx='17' cy='17' r='8' fill='none' stroke='#BAE6FD' stroke-width='0.8' opacity='0.8'/>
+
+  <!-- Specular shine on upper left -->
+  <circle cx='14' cy='13.5' r='1.8' fill='#FFFFFF' opacity='0.85'/>
+  <circle cx='12.5' cy='15.5' r='0.8' fill='#FFFFFF' opacity='0.6'/>
+
+  <!-- Tiny sparkle star at top right (26, 6) -->
+  <circle cx='26' cy='7' r='1.2' fill='#FDE047'/>
+</svg>

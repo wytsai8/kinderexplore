@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>KinderExplore - 里里和娜娜的科學大冒險 🚀</title>
+  <meta name="description" content="有些答案我們已經知道，有些答案科學家也還在尋找。我們一起探索已知的世界，也一起探討那些還沒有答案的問題。而這正是科學最有趣的地方！YouTube：@WYT2809">
+  <meta name="author" content="KinderExplore">
+  <link rel="canonical" href="https://kinderexplore.com">
+  <meta property="og:site_name" content="KinderExplore">
+  <meta property="og:title" content="KinderExplore - 里里和娜娜的科學大冒險 🚀">
+  <meta property="og:description" content="有些答案我們已經知道，有些答案科學家也還在尋找。我們一起探索已知的世界，也一起探討那些還沒有答案的問題。而這正是科學最有趣的地方！">
+  <meta property="og:url" content="https://kinderexplore.com">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="https://yt3.googleusercontent.com/067SvfbIDLAbzhBfzq-V4-T0VPggzA3krh191XE5X2jKnHU0NypWATmkc7RYjeF0fJk3AS3qVW0=s176-c-k-c0x00ffffff-no-rj" type="image/x-icon">
+
+  <!-- Google Web Fonts: Noto Sans TC, Fredoka & Quicksand -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Noto+Sans+TC:wght@500;700;900&family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 背景動態裝飾（柔和雲朵、手繪微星、微光氣泡） -->
+  <div class="bg-decorations">
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    <div class="cloud cloud-3"></div>
+    <div class="cloud cloud-4"></div>
+    <div class="floating-star star-1">
+      <svg class="doodle-icon doodle-icon-md" style="stroke:#D97706;" viewBox="0 0 24 24"><path d="M12 2l2.4 6.2 6.6.6-5 4.3 1.5 6.4L12 16.2 6.5 19.5l1.5-6.4-5-4.3 6.6-.6L12 2z"/></svg>
+    </div>
+    <div class="floating-star star-2">
+      <svg class="doodle-icon doodle-icon-sm" style="stroke:#F59E0B;" viewBox="0 0 24 24"><path d="M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5z"/></svg>
+    </div>
+    <div class="floating-star star-3">
+      <svg class="doodle-icon doodle-icon-md" style="stroke:#D97706;" viewBox="0 0 24 24"><path d="M12 2l2.4 6.2 6.6.6-5 4.3 1.5 6.4L12 16.2 6.5 19.5l1.5-6.4-5-4.3 6.6-.6L12 2z"/></svg>
+    </div>
+    <div class="floating-star star-4">
+      <svg class="doodle-icon doodle-icon-sm" style="stroke:#F59E0B;" viewBox="0 0 24 24"><path d="M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2 2-5z"/></svg>
+    </div>
+    <div class="floating-bubble bubble-1"></div>
+    <div class="floating-bubble bubble-2"></div>
+    <div class="floating-bubble bubble-3"></div>
+  </div>
+
+  <div class="app-container">
+
+    <!-- 整合式頂部首頁專區 (Unified Header & Hero Section) -->
+    <header class="top-unified-hero">
+      <!-- 頂部導航列 -->
+      <div class="unified-nav-row">
+        <a href="index.html" class="brand-area">
+          <img 
+            src="https://yt3.googleusercontent.com/067SvfbIDLAbzhBfzq-V4-T0VPggzA3krh191XE5X2jKnHU0NypWATmkc7RYjeF0fJk3AS3qVW0=s176-c-k-c0x00ffffff-no-rj" 
+            alt="KinderExplore 小朋友看大世界" 
+            class="brand-logo-img"
+          >
+          <div class="brand-text">
+            <div style="display:flex; align-items:center; gap:8px;">
+              <span class="company-badge">KinderExplore</span>
+              <h1 style="font-size:1.2rem; margin:0;">小朋友看大世界</h1>
+            </div>
+          </div>
+        </a>
+
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="nav-btn active">
+                <img src="assets/icons/icon_compass_map.png" alt="" class="nav-custom-icon">
+                首頁
+              </a>
+            </li>
+            <li>
+              <a href="cinema.html" class="nav-btn">
+                <img src="assets/icons/icon_tv_cinema.png" alt="" class="nav-custom-icon">
+                科學探險動畫
+              </a>
+            </li>
+            <li>
+              <a href="wiki.html" class="nav-btn">
+                <img src="assets/icons/icon_robot_gear.png" alt="" class="nav-custom-icon">
+                科學百科
+              </a>
+            </li>
+            <li>
+              <a href="concept.html" class="nav-btn">
+                <img src="assets/icons/icon_lightbulb_idea.png" alt="" class="nav-custom-icon">
+                品牌核心理念
+              </a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-btn">
+                <img src="assets/icons/icon_magnifier_bug.png" alt="" class="nav-custom-icon">
+                認識里里與娜娜
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="nav-controls">
+          <a 
+            href="https://www.youtube.com/@WYT2809?sub_confirmation=1" 
+            target="_blank" 
+            rel="noopener" 
+            class="nav-btn btn-youtube-link" 
+            style="background:#FFF1F2; color:#DC2626; border:1.5px solid #FECDD3; font-weight:800;"
+          >
+            <svg viewBox="0 0 28 20" width="20" height="14" style="vertical-align:middle; flex-shrink:0;"><path d="M27.4 3.1c-.3-1.2-1.2-2.1-2.4-2.4C22.9 0 14 0 14 0S5.1 0 3 .7C1.8 1 0.9 1.9 0.6 3.1 0 5.3 0 10 0 10s0 4.7.6 6.9c.3 1.2 1.2 2.1 2.4 2.4 2.1.7 11 .7 11 .7s8.9 0 11-.7c1.2-.3 2.1-1.2 2.4-2.4.6-2.2.6-6.9.6-6.9s0-4.7-.6-6.9z" fill="#FF0000"/><polygon points="11.2,5.7 18.5,10 11.2,14.3" fill="#FFFFFF"/></svg>
+            訂閱 YouTube
+          </a>
+        </div>
+      </div>
+
+      <!-- 英雄探索核心內容：幾何圖形無框線設計 -->
+      <div class="hero-manifesto-container" style="position: relative;">
+        <!-- 幾何浮動背景裝飾元素 -->
+        <div class="geo-bg-decorations" aria-hidden="true">
+          <div class="geo-shape geo-shape-circle-ring"></div>
+          <div class="geo-shape geo-shape-donut"></div>
+          <div class="geo-shape geo-shape-diamond-floating"></div>
+          <div class="geo-shape geo-shape-star-floating">✦</div>
+        </div>
+
+        <!-- 頂部主視覺插圖與品牌核心理念 -->
+        <div class="manifesto-header-row" style="position: relative; z-index: 1;">
+          <div class="hero-main-banner-wrap">
+            <img 
+              src="首頁圖1.png" 
+              alt="帶孩子們，一起探索世界與科學！" 
+              class="hero-main-banner-img"
+              loading="eager"
+            >
+          </div>
+          <div class="manifesto-slogan-banner-wrap">
+            <img 
+              src="slogen.png" 
+              alt="有些答案我們已經知道，有些答案科學家也還在尋找。我們一起探索已知的世界，也一起探討那些還沒有答案的問題。而這正是科學最有趣的地方！" 
+              class="manifesto-slogan-img"
+            >
+          </div>
+        </div>
+
+        <!-- 開放式幾何探索導讀（無生硬外框，幾何膠囊與自然留白） -->
+        <div class="geo-manifesto-stage">
+          
+          <!-- 好奇提問幾何浮動膠囊 -->
+          <div class="geo-questions-container">
+            <div class="geo-question-pill">
+              <img src="assets/icons/icon_magnifier_microbe.png" alt="" class="pill-custom-icon">
+              <span>「為什麼會有鼻涕？」</span>
+            </div>
+            <div class="geo-question-pill">
+              <img src="assets/icons/icon_dinosaur.png" alt="" class="pill-custom-icon">
+              <span>「恐龍吃什麼？」</span>
+            </div>
+            <div class="geo-question-pill">
+              <img src="assets/icons/icon_planet_saturn.png" alt="" class="pill-custom-icon">
+              <span>「月亮為什麼會跟著我們？」</span>
+            </div>
+            <div class="geo-question-pill">
+              <img src="assets/icons/icon_rocket_space.png" alt="" class="pill-custom-icon">
+              <span>「時間到底是什麼？」</span>
+            </div>
+            <div class="geo-question-pill">
+              <img src="assets/icons/icon_chemistry_beaker.png" alt="" class="pill-custom-icon">
+              <span>「科學家會不會犯錯？」</span>
+            </div>
+          </div>
+
+          <!-- 探索未知科學思維（幾何模組卡片） -->
+          <div class="geo-statement-block">
+            <p class="geo-statement-intro">
+              在里里娜娜的世界裡，<strong>科學不是一本已經寫完的書</strong>。<br>
+              科學家也會提出新的問題、做新的實驗、觀察新的證據，甚至發現以前不知道的事情。<br>
+              所以除了帶孩子認識已經知道的科學知識，我們也會一起看看：
+            </p>
+            <div class="geo-inquiry-cards">
+              <div class="geo-inquiry-item">
+                <img src="assets/icons/icon_chemistry_beaker.png" alt="" class="inquiry-custom-icon">
+                <span class="geo-inquiry-title">科學家最近又發現了什麼？</span>
+              </div>
+              <div class="geo-inquiry-item">
+                <img src="assets/icons/icon_skeleton_heart.png" alt="" class="inquiry-custom-icon">
+                <span class="geo-inquiry-title">我們對人體的了解又增加了哪些？</span>
+              </div>
+              <div class="geo-inquiry-item">
+                <img src="assets/icons/icon_earth_nature.png" alt="" class="inquiry-custom-icon">
+                <span class="geo-inquiry-title">關於地球與自然，還有哪些問題正在被研究？</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <!-- 四大探索主題分頁傳送門 (Exploration Portals) -->
+    <section class="portals-navigation-section">
+      <div class="portals-header-with-characters">
+        <div class="portal-header-char portal-header-char-nana">
+          <img src="娜娜_stand.png" alt="娜娜" class="portal-char-cutout">
+        </div>
+        <div class="portals-section-header">
+          <span class="section-tag" style="background:#EFF6FF; color:#1E40AF; border:none;">EXPLORATION PORTALS</span>
+          <h3>展開探索旅程</h3>
+          <p>每個專區都是一場專屬冒險，點選卡片立刻前往專屬頁面探索！</p>
+        </div>
+        <div class="portal-header-char portal-header-char-riri">
+          <img src="里里_stand.png" alt="里里" class="portal-char-cutout">
+        </div>
+      </div>
+
+      <div class="portals-grid">
+        <!-- 傳送門 1：科學探險動畫 -->
+        <a href="cinema.html" class="portal-nav-card portal-card-cinema">
+          <div class="portal-card-geo-corner portal-geo-circle" aria-hidden="true"></div>
+          <div>
+            <div class="portal-card-badge">SCIENCE ANIMATION</div>
+            <div class="portal-card-title">
+              <div class="portal-icon-box">
+                <img src="assets/icons/icon_tv_cinema.png" alt="動畫" class="portal-custom-icon">
+              </div>
+              <h4 class="portal-title-text">科學探險動畫</h4>
+            </div>
+            <p class="portal-card-desc">
+              跟著里里和娜娜觀看科普大冒險動畫！包含地球、人體、時鐘與宇宙等不同主題，並可挑戰趣味互動關卡！
+            </p>
+            <ul class="portal-features-list">
+              <li>
+                <img src="assets/icons/icon_earth_sun.png" alt="" class="portal-list-icon">
+                地球・人體・時鐘・宇宙等不同主題
+              </li>
+              <li>
+                <img src="assets/icons/icon_magnifier_bug.png" alt="" class="portal-list-icon">
+                里里與娜娜專屬科學筆記
+              </li>
+              <li>
+                <img src="assets/icons/icon_rocket_space.png" alt="" class="portal-list-icon">
+                互動問答闖關挑戰
+              </li>
+            </ul>
+          </div>
+          <div class="portal-action-row">
+            <span class="portal-action-btn">觀看動畫 ➡️</span>
+          </div>
+        </a>
+
+        <!-- 傳送門 2：科學百科 -->
+        <a href="wiki.html" class="portal-nav-card portal-card-wiki">
+          <div class="portal-card-geo-corner portal-geo-diamond" aria-hidden="true"></div>
+          <div>
+            <div class="portal-card-badge">SCIENCE WIKI</div>
+            <div class="portal-card-title">
+              <div class="portal-icon-box">
+                <img src="assets/icons/icon_robot_gear.png" alt="科學百科" class="portal-custom-icon">
+              </div>
+              <h4 class="portal-title-text">科學百科</h4>
+            </div>
+            <p class="portal-card-desc">
+              十萬個為什麼？從人體骨骼、恐龍化石到月亮運行，解答孩子在生活中最好奇的小秘密，支援貼心語音朗讀伴讀！
+            </p>
+            <ul class="portal-features-list">
+              <li>
+                <img src="assets/icons/icon_science_book.png" alt="" class="portal-list-icon">
+                支援親切語音朗讀，小小孩也能開心聽懂
+              </li>
+              <li>
+                <img src="assets/icons/icon_magnifier_microbe.png" alt="" class="portal-list-icon">
+                身邊日常微小事物背後的大科學原理
+              </li>
+              <li>
+                <img src="assets/icons/icon_lightbulb_idea.png" alt="" class="portal-list-icon">
+                鼓勵孩子主動提出「為什麼？」
+              </li>
+            </ul>
+          </div>
+          <div class="portal-action-row">
+            <span class="portal-action-btn">翻開科學百科 ➡️</span>
+          </div>
+        </a>
+
+        <!-- 傳送門 3：品牌核心理念 -->
+        <a href="concept.html" class="portal-nav-card portal-card-concept">
+          <div class="portal-card-geo-corner portal-geo-star" aria-hidden="true"></div>
+          <div>
+            <div class="portal-card-badge">CORE CONCEPT</div>
+            <div class="portal-card-title">
+              <div class="portal-icon-box">
+                <img src="assets/icons/icon_lightbulb_idea.png" alt="品牌理念" class="portal-custom-icon">
+              </div>
+              <h4 class="portal-title-text">品牌核心理念</h4>
+            </div>
+            <p class="portal-card-desc">
+              「有些答案我們已經知道，有些答案科學家也還在尋找。」了解 KinderExplore 陪伴孩子探索世界的核心教育理念。
+            </p>
+            <ul class="portal-features-list">
+              <li>
+                <img src="assets/icons/icon_chemistry_beaker.png" alt="" class="portal-list-icon">
+                科學不是寫完的書，「不知道」是探索的開始
+              </li>
+              <li>
+                <img src="assets/icons/icon_compass_map.png" alt="" class="portal-list-icon">
+                我們一起探索已知的世界，也一起探討未知問題
+              </li>
+              <li>
+                <img src="assets/icons/icon_plant_sprout.png" alt="" class="portal-list-icon">
+                溫馨家長專區與親子探索陪伴指南
+              </li>
+            </ul>
+          </div>
+          <div class="portal-action-row">
+            <span class="portal-action-btn">探索品牌理念 ➡️</span>
+          </div>
+        </a>
+
+        <!-- 傳送門 4：認識里里與娜娜 -->
+        <a href="about.html" class="portal-nav-card portal-card-about">
+          <div class="portal-card-geo-corner portal-geo-blob" aria-hidden="true"></div>
+          <div>
+            <div class="portal-card-badge">MEET LILI & NANA</div>
+            <div class="portal-card-title">
+              <div class="portal-icon-box">
+                <img src="assets/icons/icon_compass_map.png" alt="認識里里與娜娜" class="portal-custom-icon">
+              </div>
+              <h4 class="portal-title-text">認識里里與娜娜</h4>
+            </div>
+            <p class="portal-card-desc">
+              好奇心爆棚的行動派「里里」遇上觀察敏銳的智慧小智囊「娜娜」！這對最強科學冒險拍檔，帶孩子一起在好奇心世界裡橫衝直撞找答案！
+            </p>
+            <ul class="portal-features-list">
+              <li>
+                <img src="assets/icons/icon_magnifier_bug.png" alt="" class="portal-list-icon">
+                探險隊長里里：活力充沛、口袋裝滿放大鏡，永遠第一個喊「衝啊去瞧瞧！」
+              </li>
+              <li>
+                <img src="assets/icons/icon_robot_gear.png" alt="" class="portal-list-icon">
+                智慧小智囊娜娜：細心機智，隨身筆記破解人體、地球與宇宙的十萬個為什麼
+              </li>
+              <li>
+                <img src="assets/icons/icon_rainbow_castle.png" alt="" class="portal-list-icon">
+                最強拍檔默契：一個敢衝敢問、一個細心分析，連科學家還在找的問題也敢挑戰！
+              </li>
+            </ul>
+          </div>
+          <div class="portal-action-row">
+            <span class="portal-action-btn">認識探險拍檔 ➡️</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- 頁尾 Footer -->
+    <footer class="site-footer">
+      <div style="display:flex; justify-content:center; gap:14px; flex-wrap:wrap; margin-bottom:16px;">
+        <a href="mailto:info@kinderexplore.com" class="footer-social-pill" style="color:#059669; border-color:#A7F3D0;">
+          <svg class="doodle-icon doodle-icon-sm" style="stroke:#059669;" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3 7.5l9 6 9-6"/></svg>
+          合作信箱：info@kinderexplore.com
+        </a>
+        <a href="https://www.youtube.com/@WYT2809" target="_blank" rel="noopener" class="footer-social-pill" style="color:#DC2626; border-color:#FECACA;">
+          <svg viewBox="0 0 28 20" width="20" height="14" style="vertical-align:middle; flex-shrink:0;"><path d="M27.4 3.1c-.3-1.2-1.2-2.1-2.4-2.4C22.9 0 14 0 14 0S5.1 0 3 .7C1.8 1 0.9 1.9 0.6 3.1 0 5.3 0 10 0 10s0 4.7.6 6.9c.3 1.2 1.2 2.1 2.4 2.4 2.1.7 11 .7 11 .7s8.9 0 11-.7c1.2-.3 2.1-1.2 2.4-2.4.6-2.2.6-6.9.6-6.9s0-4.7-.6-6.9z" fill="#FF0000"/><polygon points="11.2,5.7 18.5,10 11.2,14.3" fill="#FFFFFF"/></svg>
+          YouTube 頻道：小朋友看大世界 (@WYT2809)
+        </a>
+      </div>
+      <p style="font-weight:700; color:#334155; font-size:1rem;">KinderExplore・開啟好奇心・陪孩子一起看見大世界！</p>
+      
+      <!-- 隱私權政策與版權聲明 -->
+      <div class="footer-legal-links">
+        <button type="button" class="footer-legal-btn" onclick="window.openLegalModal('privacy')">
+          <svg class="doodle-icon doodle-icon-xs" style="stroke:currentColor; width:15px; height:15px;" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          隱私權政策
+        </button>
+        <span style="color:#CBD5E1; font-size:0.85rem;">•</span>
+        <button type="button" class="footer-legal-btn" onclick="window.openLegalModal('copyright')">
+          <svg class="doodle-icon doodle-icon-xs" style="stroke:currentColor; width:15px; height:15px;" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M15 9.354a4 4 0 1 0 0 5.292"/></svg>
+          版權與 AI 生成內容聲明
+        </button>
+      </div>
+
+      <p style="font-size:0.85rem; margin-top:8px; color:#64748B;">
+        © 2026 KinderExplore. All rights reserved. | 聯絡信箱: <a href="mailto:info@kinderexplore.com" style="color:#2563EB; text-decoration:none;">info@kinderexplore.com</a>
+      </p>
+    </footer>
+
+  </div>
+
+  <!-- 隱私權政策彈跳視窗 (Privacy Policy Modal) -->
+  <div class="modal-backdrop" id="modal-privacy">
+    <div class="modal-sheet" style="max-width:660px;">
+      <div class="modal-header">
+        <div class="modal-header-titles">
+          <h2>🛡️ 兒童與家庭隱私權政策</h2>
+          <p>KinderExplore Privacy Policy</p>
+        </div>
+        <button class="btn-close-modal" onclick="window.closeLegalModal('modal-privacy')" title="關閉">✕</button>
+      </div>
+      <div class="modal-body" style="padding:24px 26px; text-align:left;">
+        <div class="legal-dialog-section">
+          <h3>🌱 專為兒童與家庭設計的安心探索空間</h3>
+          <p>KinderExplore（小朋友看大世界）專為親子與師生打造。我們重視每一位孩子的網路隱私，遵循國際兒童線上隱私保護規範（COPPA）及個人資料保護法規，致力提供安全無虞的探索環境。</p>
+        </div>
+        <div class="legal-dialog-section">
+          <h3>🚫 零個資蒐集・無需註冊</h3>
+          <p>本網站全站自由開放，觀看科學動畫、閱讀十萬個為什麼、進行快問快答與互動遊戲，<strong>均無需註冊帳號、不需填寫姓名、電話、電子郵件或任何身分資訊</strong>。</p>
+        </div>
+        <div class="legal-dialog-section">
+          <h3>💾 本機瀏覽進度儲存（Local Storage）</h3>
+          <p>網站中互動關卡的星星、稱號與答題紀錄，僅以純文字暫存於您使用的本機瀏覽器（Local Storage）中，用於維持探險進度，<strong>絕不會上傳至任何伺服器</strong>，您可隨時清除瀏覽器紀錄進行重置。</p>
+        </div>
+        <div class="legal-dialog-section">
+          <h3>📺 影音嵌入說明</h3>
+          <p>網站影音透過 YouTube 官方嵌入播放，播放時受 Google / YouTube 服務條款與隱私權保護規範。本網站絕不安裝任何追蹤兒童行為的廣告追蹤器。</p>
+        </div>
+        <div class="legal-dialog-section">
+          <h3>✉️ 家長權益與聯繫管道</h3>
+          <p>家長對孩子的網路使用擁有最高權限。若對本網站隱私條款有任何建議，歡迎隨時來信：<a href="mailto:info@kinderexplore.com" style="color:#2563EB; font-weight:700;">info@kinderexplore.com</a>。</p>
+        </div>
+      </div>
+      <div style="padding:16px 24px; border-top:1px solid #E2E8F0; text-align:right; background:#F8FAFC; border-radius:0 0 24px 24px;">
+        <button class="btn-bouncy btn-primary-start" style="padding:8px 24px; font-size:0.92rem;" onclick="window.closeLegalModal('modal-privacy')">我知道了</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 版權與 AI 生成內容聲明彈跳視窗 (Copyright & AI-Generated Content Modal) -->
+  <div class="modal-backdrop" id="modal-copyright">
+    <div class="modal-sheet" style="max-width:700px;">
+      <div class="modal-header">
+        <div class="modal-header-titles">
+          <h2>📜 版權與 AI 生成內容聲明</h2>
+          <p>Copyright & AI-Generated Content Statement</p>
+        </div>
+        <button class="btn-close-modal" onclick="window.closeLegalModal('modal-copyright')" title="關閉">✕</button>
+      </div>
+      <div class="modal-body" style="padding:24px 26px; text-align:left;">
+        <div style="font-size:0.85rem; color:#64748B; font-weight:700; margin-bottom:18px; padding-bottom:8px; border-bottom:1px dashed #E2E8F0;">
+          最後更新日期：2026 年 10 月
+        </div>
+
+        <div class="legal-dialog-section">
+          <h3>一、著作權歸屬聲明</h3>
+          <p>本網站「KinderExplore 小朋友看大世界」之原創內容，包括但不限於主角「里里（Lili）」、「娜娜（Nana）」及其角色美術造型、科學探險動畫影音、文字與分鏡、水彩手繪風格圖示、生活科學百科與問答內容、網站版面設計及原創程式碼等，均由 KinderExplore 團隊創作、製作或經合法授權使用。<br><br>上述內容中，依法享有著作權之部分，受中華民國著作權法及其他適用法律保護。<br><br><strong>© 2026 KinderExplore. All rights reserved.</strong></p>
+        </div>
+
+        <div class="legal-dialog-section">
+          <h3>二、AI 生成與輔助創作內容說明</h3>
+          <p>為提供孩子有趣且易於理解的科學與知識探索體驗，本網站及相關影音內容中的部分或全部圖片、插圖、動畫、影片畫面、角色視覺素材、配音、音效及音樂，可能由人工智慧（AI）工具生成，或經 AI 輔助創作、編輯與製作。<br><br>AI 生成內容的著作權及其他相關權利，將依適用法律、實際創作與編輯情形，以及所使用之 AI 工具或素材的服務條款判斷。本聲明不表示所有 AI 生成內容均必然受到著作權保護，亦不影響第三方依法享有的權利。</p>
+        </div>
+
+        <div class="legal-dialog-section">
+          <h3>三、非營利教育與家庭共讀</h3>
+          <p>我們鼓勵科學知識的傳播與親子共學！<br><br>家長於家庭中陪伴孩子觀看與學習，或幼兒園及各級學校教師於非營利性質的課堂教學中播放本站影音作為輔助教材，我們皆樂見其成。<br><br>但涉及公開播放、複製、下載、重製、改作或其他利用方式時，仍須遵守適用法律及相關授權規定。本段說明不應被視為對所有教育用途的概括授權；依法需要取得授權的使用方式，仍應事先取得許可。</p>
+        </div>
+
+        <div class="legal-dialog-section">
+          <h3>四、禁止未經授權之商業利用</h3>
+          <p>未經 KinderExplore 團隊事前書面許可，任何個人、團體或機構不得在法律允許限制之範圍內，擅自將本站依法受保護的原創內容用於商業用途，包括但不限於：</p>
+          <ul style="margin:8px 0 10px 20px; padding:0; color:#475569; font-size:0.94rem; line-height:1.75;">
+            <li>將角色圖像、動畫影音或其他內容重新發布、轉售或用於商業出版。</li>
+            <li>將原創內容改作為營利性教材、課程或商品。</li>
+            <li>擅自複製、改作、散布或以其他方式利用本站依法受保護的內容。</li>
+            <li>將本站內容整合至付費產品、商業服務或其他營利項目中。</li>
+          </ul>
+          <p>本聲明不限制依法得自由使用的內容、依法成立的合理使用，或已獲得適當授權的使用方式。</p>
+        </div>
+
+        <div class="legal-dialog-section">
+          <h3>五、第三方素材與 AI 工具</h3>
+          <p>本站製作過程中可能使用第三方 AI 工具、軟體或其他授權素材。相關內容的使用與權利範圍，將依各工具、素材提供者的適用條款及授權規定辦理。<br><br>如內容涉及第三方依法享有的著作權或其他權利，本站不主張超出自身合法權利範圍的權利。</p>
+        </div>
+
+        <div class="legal-dialog-section">
+          <h3>六、內容正確性、權利疑問與聯絡方式</h3>
+          <p>KinderExplore 致力於為孩子提供有趣、易懂且可靠的科學與教育內容。我們會盡力確保網站及相關影音中的科學知識與教育資訊正確，並持續檢視與更新相關內容。<br><br>然而，科學知識可能隨著新研究與證據而有所更新，內容亦可能存在疏漏。如您發現任何疑似錯誤的資訊，或對本站內容的著作權、素材來源、使用授權有任何疑問或建議，歡迎透過本網站的「聯絡我們」與我們聯繫。<br><br>如有教材出版合作、教育專案授權、影音使用授權或商務推廣需求，也歡迎透過以下官方信箱與我們洽談：<br><br><strong>官方信箱：</strong> <a href="mailto:info@kinderexplore.com" style="color:#2563EB; font-weight:700;">info@kinderexplore.com</a><br><br>我們將盡力回覆相關詢問，並依實際情況進行確認與處理。</p>
+        </div>
+      </div>
+      <div style="padding:16px 24px; border-top:1px solid #E2E8F0; text-align:right; background:#F8FAFC; border-radius:0 0 24px 24px;">
+        <button class="btn-bouncy btn-primary-start" style="padding:8px 24px; font-size:0.92rem;" onclick="window.closeLegalModal('modal-copyright')">我知道了</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript 載入 -->
+  <script src="js/data.js"></script>
+  <script src="js/sound.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
