@@ -650,7 +650,7 @@ a, button, [role="button"], input[type="button"], input[type="submit"], input[ty
 }
 
 /* ========================================================
-   手繪風線條圖標系統 (Hand-drawn Doodle Line Icons)
+   手繪風線條圖示系統 (Hand-drawn Doodle Line Icons)
    ======================================================== */
 .doodle-icon {
   width: 22px;
@@ -2189,7 +2189,7 @@ a, button, [role="button"], input[type="button"], input[type="submit"], input[ty
   font-weight: 900;
 }
 
-/* 各主題切換激活狀態 (幾何膠囊無框設計) */
+/* 各主題切換啟用狀態 (幾何膠囊無框設計) */
 .theme-filter-pill.active[data-filter="all"] {
   background: linear-gradient(135deg, #FFF1F2 0%, #FEF3C7 100%);
   border: none;
